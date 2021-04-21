@@ -67,7 +67,7 @@ def creer_robot(couleur_robot):
     dx,dy = 10, 10
     rayon = COTE
     cercle = canvas.create_oval((x, y), (x+rayon, y+rayon), fill = couleur_robot)
-    return [cercle, dx, dy]
+  return [cercle, dx, dy]
 
 
 def creer_carrer():
@@ -114,3 +114,4 @@ racine.mainloop()
 
 print("hello")
 
+#h
