@@ -14,7 +14,6 @@
 # Comment le programme fonctionne :
 
 # import des modules
-
 import tkinter as tk
 import random as rd
 
@@ -115,17 +114,3 @@ racine.mainloop()
 
 print("hello")
 
-# constantes
-
-
-# programme principal
-
-racine = tk.Tk()
-racine.title("Jeu des robots")
-
-# création des widgets
-canvas = tk.Canvas(racine, width= 640, height= 640, bg= "black")
-canvas.grid()
-racine.mainloop()
-
-print("hello")
